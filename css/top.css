@@ -1,0 +1,140 @@
+/****************
+ reset
+*****************/
+html, body,
+blockquote, div, h1, h2, h3, h4, h5, h6, p, pre,
+abbr, address, cite, em, img,
+small, span, strong, sub, sup,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, footer, header, nav, section,
+canvas, hr, iframe, object, time, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+article, aside, figcaption, figure,
+footer, header, hr, nav, section {
+  display: block;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+html {
+  font-size: 62.5%;
+  color: #666666;
+  background: #DFEBA6;
+}
+
+body {
+  font-size: 1.7rem;
+}
+
+a {
+  color: #0000ff;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+a:visited {
+  color: #000088;
+}
+a:hover {
+  color: #000088;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/****************
+ wysiwyg
+*****************/
+.wysiwyg p {
+  margin-top: 15px;
+  line-height: 150%;
+}
+.wysiwyg > *:first-child {
+  margin-top: 0;
+}
+.wysiwyg.wysiwyg--section {
+  margin-top: 15px;
+}
+
+#wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 15px 0;
+}
+#header #header-logo {
+  color: #009D85;
+  font-size: 2.5rem;
+}
+
+#container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 50px;
+}
+#container > * {
+  flex-shrink: 0;
+}
+
+#side {
+  width: 200px;
+  background: #3DB680;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 15px 10px;
+}
+
+.side-nav__links {
+  padding-left: 20px;
+  list-style: disc;
+}
+.side-nav__links li {
+  line-height: 150%;
+}
+.side-nav__links li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.side-nav__links li a:hover {
+  text-decoration: underline;
+}
+
+#main {
+  width: 730px;
+  padding: 15px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+h2.head {
+  border: 2px solid #ECACB5;
+  color: #009250;
+  font-size: 2rem;
+  padding: 7px 15px;
+}
+
+/*# sourceMappingURL=top.css.map */
